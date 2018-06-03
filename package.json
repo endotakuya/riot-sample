@@ -1,0 +1,25 @@
+{
+  "name": "riot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "pug": "^2.0.3",
+    "riot": "^3.10.1",
+    "riot-route": "^3.1.3",
+    "riot-tag-loader": "^2.0.2",
+    "riotjs-loader": "^4.0.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
