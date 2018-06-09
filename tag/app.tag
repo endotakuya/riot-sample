@@ -3,7 +3,6 @@ app
   button(onclick="{ show_count }") click
 
   script.
-    self = this
     let count = 0
 
     show_count() {
