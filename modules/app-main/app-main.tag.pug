@@ -3,16 +3,8 @@ app-main
     p ほげ
   button(onclick="{ show_count }") click
 
-  style(type="less").
-    :scope {
-      h2 {
-        color: blue;
-        font-size: 2em;
-        p {
-          color: red;
-        }
-      }
-    }
+  style(type="less")
+    include app-main.less
 
   script.
     let count = 0
