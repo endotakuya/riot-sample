@@ -1,6 +1,18 @@
 app-main
   h2 { opts.title }
+    p ほげ
   button(onclick="{ show_count }") click
+
+  style(type="less").
+    :scope {
+      h2 {
+        color: blue;
+        font-size: 2em;
+        p {
+          color: red;
+        }
+      }
+    }
 
   script.
     let count = 0
